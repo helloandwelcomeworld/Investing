@@ -28,6 +28,17 @@ Then open `http://localhost:5173`.
 
 For a public site that works for anyone on Chrome, Safari, Firefox, Edge, iOS, Android, Windows, and macOS, deploy it to a real hosting provider instead of relying on a temporary tunnel.
 
+### GitHub Pages
+
+This repo includes a static build in `docs/` for GitHub Pages. To publish it:
+
+1. Open repository Settings > Pages.
+2. Set Source to `Deploy from a branch`.
+3. Select branch `main` and folder `/docs`.
+4. Save.
+
+GitHub Pages serves the static preview. For live market data, deploy the Node/API version to Vercel, Render, Railway, or another server host.
+
 ### Vercel
 
 1. Import this folder as a Vercel project.
