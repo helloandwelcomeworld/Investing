@@ -1,0 +1,35 @@
+{
+  "name": "market-signal-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "preview": "cross-env NODE_ENV=production node server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "cross-env": "^7.0.3",
+    "express": "^4.19.2",
+    "lucide-react": "^0.468.0",
+    "vite": "^6.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0"
+  }
+}
